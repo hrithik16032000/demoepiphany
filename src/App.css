@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+    --mainDark: #212125;
+    --mainGrey: rgba(109, 109, 109);
+    --mainLightGrey: rgba(172, 172,172);
+    --mainWhite: #fff;
+    --mainBlue: #007bff;
+    --mainOrange: 	#FF8C00;
+}
+
+.navbar{
+  font-family: "Roboto", sans-serif;
+ font-size: medium;
+}
+
+.main-footer {
+    position: bottom;
+    margin-top: auto;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+  }
+
+a {
+   margin: 0.4rem;
+  }
+
+  /* Override default */
+.Draftail-Toolbar {
+  background: transparent !important;
+  border: none !important;
+}
+/* Override default */
+.Draftail-Editor {
+  border: none !important;
+  width: 60% !important;
+  margin-top: 100px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+/* Override default */
+.public-DraftEditor-content {
+  font-family: Georgia, "Times New Roman", Times, serif !important;
+}
+/* Override default */
+.public-DraftEditorPlaceholder-inner {
+  font-family: Georgia, "Times New Roman", Times, serif !important;
+}
+.boxy:hover {
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+}
+
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25%;
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+
+#myiframe {
+  padding-right: 5rem;
+  padding-left: 5rem;
+}
+
+
+.pull-left{
+  height: 350px;
+}
+
+.about{
+  margin: 3px;
+}
+
+.test{
+  margin-left: 5px;
+  margin-top: 20px;
+}
+
+.ql-editor {
+  min-height: 360px;
+}
+
+/* Support_Page */
+.razorpay-embed-btn{
+  color: "#A9E2F3";
+  vertical-align: middle;
+  position: relative;
+  }
+
+  .donate{
+    background-color: #007bff;
+  }
+
+ .donateimg{
+   height: "560px";
+   width: 100%;
+
+ } 
+  .contacthead{
+    font-style: "Roboto";
+    font-size: 24px;
+  }
+  
+  .contactlink{
+    text-decoration: none;
+   color: black;
+  }
+
+ /* Publish_Page  */
+#logreg-forms{
+    width:412px;
+    margin:10vh auto;
+    background-color:#f3f3f3;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.signin{
+  text-align: center;
+}

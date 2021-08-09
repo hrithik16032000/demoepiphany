@@ -1,0 +1,10 @@
+{
+    "youtube":{
+        "searchURL": "https://www.googleapis.com/youtube/v3/search",
+        "playlistURL": "https://www.googleapis.com/youtube/v3/playlistItems",
+        "apiKey": "AIzaSyCeTsaH-j4GvMBoVDYU9y9SWYRaQ7FNDzY",
+        "epiphanyChannelID": "UC5Kp_AuggphAVGToUxbfEmQ",
+        "embedURL": "https://www.youtube.com/embed",
+        "podcastPlaylistID": "PLnZVcNMNUomJB49vVKZmgTRHOOEWscINu"
+    }
+}
